@@ -13,4 +13,73 @@
 
 a {
     text-decoration: none;
+    color: var(--smoke);
+    font-size: 16px;
 }
+
+.header-container {
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+.header-content {
+    width: 70%;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items:end;
+    padding: 16px 0px 0px 0px;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.hero-container {
+    display: flex;
+    padding: 120px 0px 150px 0;
+    gap: 40px;
+}
+
+.hero-group {
+    flex-basis: 1;
+}
+
+.hero-img-container {
+    background-color: rgba(255, 255, 255, 0.189);
+    width: 100%;
+    border-radius: 8px;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 1000;
+    margin-bottom: 20px;
+}
+
+.hero-description {
+    color: var(--smoke);
+    font-size: 18px;
+}
+
+.signup-btn {
+    margin-top: 25px;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 4px;
+    color: var(--white);
+    background-color: var(--light);
+    font-size: 16px;
+    font-weight: 600;
+}
+
