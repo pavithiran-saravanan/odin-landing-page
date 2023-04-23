@@ -1,0 +1,16 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --dark : #1f2937;
+    --light : #3882f6;
+    --white : #f9faf8;
+    --smoke : #e5e7eb;
+}
+
+a {
+    text-decoration: none;
+}
