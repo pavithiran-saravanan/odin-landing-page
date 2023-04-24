@@ -1,3 +1,4 @@
+/* Page setting */
 * {
     padding: 0px;
     margin: 0px;
@@ -17,6 +18,7 @@ a {
     font-size: 16px;
 }
 
+/* Header Section */
 .header-container {
     background-color: var(--dark);
     color: var(--white);
@@ -96,19 +98,19 @@ a {
 
 /* Section 2 */
 .section-two {
-    padding: 100px 0px;
+    padding: 100px 0px 140px 0px;
 }
 
 .section-title {
     text-align: center;
-    margin-bottom: 80px;
-    font-size: 36px;
-    font-weight: 800;
+    margin-bottom: 60px;
+    font-size: 32px;
+    font-weight: 700;
 }
 
 .cards {
     display: flex;
-    max-width: 60%;
+    max-width: 70%;
     margin: auto;
     justify-content:center;
     flex-wrap: wrap;
@@ -140,3 +142,28 @@ a {
     line-height: 22px;
 }
 
+/* Section 3 */
+.section-three {
+    background-color: var(--smoke);
+    padding: 120px 0;
+}
+
+.testimony {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    color: var(--dark);
+    gap: 20px;
+}
+
+.testimony-text {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.customer-name {
+    align-self: flex-end;
+    font-size: 20px;
+}
