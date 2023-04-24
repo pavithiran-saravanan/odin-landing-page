@@ -64,7 +64,7 @@ a {
 .hero-container {
     display: flex;
     justify-content: space-between;
-    padding: 120px 0px 150px 0;
+    padding: 150px 0px 180px 0;
     gap: 60px;
 }
 
@@ -110,7 +110,7 @@ a {
 
 /* Section 2 */
 .section-two {
-    padding: 100px 0px 140px 0px;
+    padding: 150px 0px 180px 0px;
 }
 
 .section-title {
@@ -126,7 +126,7 @@ a {
     margin: auto;
     justify-content:center;
     flex-wrap: wrap;
-    gap: 70px;
+    gap: 80px;
 }
 
 .card {
@@ -162,7 +162,7 @@ a {
 /* Section 3 */
 .section-three {
     background-color: var(--smoke);
-    padding: 120px 0;
+    padding: 160px 0 130px 0;
 }
 
 .testimony {
@@ -176,7 +176,7 @@ a {
 
 .testimony-text {
     font-size: 36px;
-    font-weight: 200;
+    font-weight: 300;
     font-style: italic;
 }
 
