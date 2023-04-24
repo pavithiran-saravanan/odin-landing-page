@@ -5,6 +5,9 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* To scroll with animation to different sections of the page */
+html{scroll-behavior: smooth;}
+
 :root {
     --dark : #15251f;
     --light : #29b658;
