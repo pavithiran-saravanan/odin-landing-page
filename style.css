@@ -18,6 +18,17 @@ a {
     font-size: 16px;
 }
 
+.btn {
+    padding: 10px 40px;
+    border: none;
+    border-radius: 4px;
+    color: var(--white);
+    background-color: var(--light);
+    font-size: 16px;
+    font-weight: 600;
+    height: 45px;
+}
+
 /* Header Section */
 .header-container {
     background-color: var(--dark);
@@ -87,13 +98,6 @@ a {
 
 .signup-btn {
     margin-top: 25px;
-    padding: 8px 24px;
-    border: none;
-    border-radius: 4px;
-    color: var(--white);
-    background-color: var(--light);
-    font-size: 16px;
-    font-weight: 600;
 }
 
 /* Section 2 */
@@ -166,4 +170,50 @@ a {
 .customer-name {
     align-self: flex-end;
     font-size: 20px;
+}
+
+/* Section 4 */
+.section-four {
+    padding: 80px 0;
+}
+
+.call-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    background-color: var(--light);
+    color: var(--white);
+    padding: 45px 150px;
+    border-radius: 6px;
+}
+
+.call-content {
+
+}
+
+.call-title {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.call-text {
+    font-size: 18px;
+}
+
+.signup-btn-negative {
+    flex-basis: 1;
+    flex-shrink: 0;
+    border: 2px solid var(--white);
+    color: var(--white);
+    background-color: var(--light);
+}
+
+/* Footer Section */
+.footer {
+
+}
+.footer-text {
+
 }
