@@ -7,7 +7,7 @@
 
 :root {
     --dark : #15251f;
-    --light : #228d46;
+    --light : #29b658;
     --white : #f9faf8;
     --smoke : #e5e7eb;
 }
@@ -26,7 +26,7 @@ a {
     background-color: var(--light);
     font-size: 16px;
     font-weight: 600;
-    height: 45px;
+    height: 40px;
 }
 
 /* Header Section */
@@ -74,8 +74,12 @@ a {
     width: 100%;
     border-radius: 8px;
 
-    max-height: 300px;
+    /* max-height: 300px; */
     overflow: hidden;
+}
+
+.hero-img-container:hover {
+    outline: 4px solid var(--light);
 }
 
 .hero-img-container img {
@@ -92,8 +96,9 @@ a {
 }
 
 .hero-description {
-    color: var(--smoke);
+    line-height: 25px;
     font-size: 18px;
+    color: var(--smoke);
 }
 
 .signup-btn {
@@ -118,7 +123,7 @@ a {
     margin: auto;
     justify-content:center;
     flex-wrap: wrap;
-    gap: 60px;
+    gap: 70px;
 }
 
 .card {
@@ -130,9 +135,14 @@ a {
     border-radius: 8%;
     height: 180px;
     width: 180px;
-    border: 6px solid var(--smoke);
+    border: 5px solid var(--white);
     overflow: hidden;
 }
+
+.img-container:hover{
+    outline: 4px solid var(--light);
+}
+
 .img-container img {
     width: 100%;
     height: 100%;
@@ -140,7 +150,7 @@ a {
 }
 
 .text {
-    margin-top: 12px;
+    margin-top: 20px;
     text-align: center;
     color: var(--dark);
     line-height: 22px;
@@ -174,7 +184,7 @@ a {
 
 /* Section 4 */
 .section-four {
-    padding: 80px 0;
+    padding: 120px 0;
 }
 
 .call-card {
@@ -187,6 +197,7 @@ a {
     color: var(--white);
     padding: 45px 150px;
     border-radius: 6px;
+    gap: 40px;
 }
 
 .call-content {
@@ -214,7 +225,7 @@ a {
 .footer {
     background-color: var(--dark);
     text-align: center;
-    padding: 40px;
+    padding: 20px;
     color: var(--white);
     font-size: 16px;
 }
